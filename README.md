@@ -1,0 +1,2 @@
+# Words in Motion
+**_“Life exists only at this very moment, and in this moment it is infinite and eternal. For the present moment is infinitely small; before we can measure it, it has gone, and yet it persists forever.”_** - Alan Watts
