@@ -25,6 +25,6 @@ function drawScene1() {
     textSize(45);
     textAlign(CENTER, CENTER);
     fill(255);
-    text("Welcome to The Present.", windowWidth / 2, 100);
+    text("Welcome to Life", windowWidth / 2, 100);
 
 }

@@ -22,9 +22,14 @@ function drawScene1() {
     ellipse(galaxy.locationX, galaxy.locationY, galaxy.size, galaxy.size);
 
     textFont(font);
-    textSize(45);
+    textSize(42);
     textAlign(CENTER, CENTER);
     fill(255);
-    text("Congrats! You've completed The Present.", windowWidth / 2, 100);
+    text("You're in the future!", windowWidth / 2, 100);
+    text("You made some meaningful present moments.", windowWidth / 2, 200);
+    text("They're a part of the past now.", windowWidth / 2, 300);
+    text("Don't worry!", windowWidth / 2, 400);
+    text("You can make many more.", windowWidth / 2, 500);
+    text("You're in the future, anyway.", windowWidth / 2, 600);
 
 }

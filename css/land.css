@@ -434,7 +434,7 @@ footer:before {
 }
 
 footer:after {
-  content: "Interactions left: ∞";
+  content: "Interactions left in the present: ∞";
 font-size: 3em;
 }
 
