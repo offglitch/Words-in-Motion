@@ -10,24 +10,16 @@ body {
 button {
     font-family: 'Comfortaa', cursive;
     font-size: 12px;
-    left: 50px;
-    top: 700px;
+
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
     border-radius: 35px;
 
 }
 
-.earth {
-    width: 100px;
-    height: 50px;
-    border: none;
-    outline: none;
-    color: #fff;
-    background-color: transparent;
-    cursor: zoom-in;
-    position: absolute;
-    z-index: 0;
-    border-radius: 9px;
-}
 
 .glow-on-hover {
     width: 100px;
@@ -80,6 +72,57 @@ button {
     left: 0;
     top: 0;
     border-radius: 10px;
+}
+.typewriter {
+    font-family: 'Comfortaa', cursive;
+    color: white;
+	display: fixed;
+}
+
+.centered {
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.lowered {
+  position: fixed;
+  top: 75%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.typewriter-text {
+    display: inline-block;
+  	overflow: hidden;
+  	letter-spacing: 4px;
+ 	animation: typing 2s steps(30, end), blink .5s step-end infinite;
+    white-space: nowrap;
+    font-size: 30px;
+    font-weight: 700;
+/*    border-right: 4px solid orange;*/
+    box-sizing: border-box;
+}
+
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 100% 
+    }
+}
+
+@keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: orange; 
+    }
 }
 
 @keyframes glowing {

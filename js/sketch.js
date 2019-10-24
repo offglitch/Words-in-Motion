@@ -21,10 +21,10 @@ function drawScene1() {
     ellipse(mouseX, mouseY, galaxy.size, galaxy.size);
     ellipse(galaxy.locationX, galaxy.locationY, galaxy.size, galaxy.size);
 
-    textFont(font);
-    textSize(45);
-    textAlign(CENTER, CENTER);
-    fill(255);
-    text("Welcome to Life", windowWidth / 2, 100);
+//    textFont(font);
+//    textSize(45);
+//    textAlign(CENTER, CENTER);
+//    fill(255);
+//    text("Welcome to Life", windowWidth / 2, 100);
 
 }
